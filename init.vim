@@ -1,6 +1,6 @@
 " ------------------------------------------------------
 " Plugins
- source $HOME/.config/nvim/vim-plug/plugins.vim
+ source $HOME/.config/nvim/plug-config/plugins.vim
 
 " ------------------------------------------------------
 "  Load LUA config
@@ -27,7 +27,7 @@
  source $HOME/.config/nvim/plug-config/lsp.vim
 
 " Plugins configuration (LUA)
- " lua require('plugins/treesitter')
+ lua require('plugins/treesitter')
 
 " Allow pass params to the Rg search command
  command! -bang -nargs=* Rg

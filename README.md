@@ -11,6 +11,27 @@ Features provides by Vim plugins and personal customizations
 - Debug using Vdebug and Xdebug
 - Tressitter for better code syntax higlighting
 - Provided configuration for PHP using Intelephense LSP server
+- Project management with startify
+
+## Install Environment
+
+1. Install NeoVim 0.5 or latest
+2. Clone this repository `$ git clone https://github.com/exequiellares/nvim-magento-environment.git ~/.config/nvim`
+3. Open init.vim file: `$ nvim ~/.config/nvim/init.vim`
+4. Execute PlugInstall: `:PlugInstall`
+5. Restart nvim
+6. Install language servers
+  1. Intelephense
+  2. Html
+  3. Javascript
+  4. Others
+7. Install FZF and Lua dependencies
+  1. ripgrep
+  2. bat
+  3. figlet
+  4. fd
+8. Python version and dependencies
+
 
 ## TODO:
 
